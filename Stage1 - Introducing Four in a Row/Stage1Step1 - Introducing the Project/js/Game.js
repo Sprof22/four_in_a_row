@@ -50,12 +50,13 @@ class Game {
                 this.playToken();
             }
         }
-	}
+    }
+    
 
-     /**
+    /**
      * Finds Space object to drop Token into, drops Token
      */
-     playToken(){
+    playToken(){
         let spaces = this.board.spaces;
         let activeToken = this.activePlayer.activeToken;
         let targetColumn = spaces[activeToken.columnLocation];
