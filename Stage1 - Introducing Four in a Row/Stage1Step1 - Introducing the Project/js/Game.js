@@ -56,6 +56,15 @@ class Game {
         let targetColumn = spaces[activeToken.columnLocation];
         let targetSpace = null;
 
-        for ()
+        for (let space of targetColumn){
+            if(space.token = null){
+                targetSpace = space;
+            } 
+        }
+
+        if(targetSpace !== null){
+            game.ready = false;
+            activeToken.drop(targetSpace);
+        }
     }
 }
