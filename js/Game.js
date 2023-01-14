@@ -80,7 +80,7 @@ class Game {
 
 
     /** 
-     * Updates game state after token is dropped. k
+     * Updates game state after token is dropped.
      * @param   {Object}    token - The token that's being dropped.
      * @param   {Object}    target - Targeted space for dropped token.
      */
